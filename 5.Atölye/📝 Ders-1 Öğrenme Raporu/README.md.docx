@@ -1,0 +1,10 @@
+void main() {
+  Map<String, int> notlar = {
+    "Matematik": 85,
+    "Fizik": 90,
+    "Kimya": 89,
+    "Tarih": 100
+  };
+
+  print("notlar:$notlar");
+}

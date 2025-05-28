@@ -1,0 +1,35 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main(){
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});//constructor
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home:Scaffold(
+        backgroundColor: Colors.grey,
+        appBar:AppBar(
+          backgroundColor: Colors.deepOrange,
+          title: Text("Hi-Kod"),
+          leading: Icon(Icons.menu),
+          //titleSpacing:100.0,
+          centerTitle: true,
+          actions: [Icon(Icons.accessibility),Icon(Icons.add)],
+          forceMaterialTransparency: false,
+        ),
+        body: Container(
+          color:Colors.brown,
+          child:Text("Kodluyoruz"),
+          width:150,//Genişlik
+          height:50,//Yükseklik
+
+        ),
+      )
+    );
+  }
+}
