@@ -85,3 +85,5 @@ Sorularınız veya geri bildirimleriniz için benimle iletişime geçebilirsiniz
 
 - GitHub: [@bushranovaaa](https://github.com/bushranovaaa)
 - E-posta: [kurtbusra956@gmail.com](mailto:kurtbusra956@egmail.com)
+
+- Linkedln: [@bushra-dev](https://www.linkedin.com/in/bushra-dev/)
